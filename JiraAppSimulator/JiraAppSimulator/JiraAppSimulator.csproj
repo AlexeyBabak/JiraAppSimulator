@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseTask.cs" />
+    <Compile Include="Attachment.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="Enums\Statuses.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Enums\TaskTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
